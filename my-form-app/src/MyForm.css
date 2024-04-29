@@ -1,0 +1,141 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20px; 
+  height: 100vh;
+}
+form {
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
+  margin-right:40%;
+  padding: 20px;
+  background-color:white;
+  width: 40%; 
+  margin-bottom: 20px;
+  margin-bottom: 10%; 
+  margin-top: 10px;
+}
+.Title {
+  height: 10px;
+  margin-top:5%;
+  font-size: 20px;
+  display: flex; 
+  flex-direction: row; 
+  margin-bottom: 20px; 
+  gap:15%;
+}
+
+.title-text {
+ margin-left:36%; 
+ font-weight: bold;
+}
+.add-button button {
+  background-color: white; 
+  color: black; 
+  width: auto; 
+  display: inline-block;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
+}
+  
+.copy-button {
+  background-color: white; 
+  color: black; 
+  padding: 5px 10px;
+  font-size: 14px; 
+  border: 1px solid black; 
+  border-radius: 4px; 
+  width: 20%;
+}
+
+.copy-button:hover {
+  background-color: lightgray;
+}
+
+  div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .state-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  small {
+    color: #888;
+  }
+  
+  textarea, input[type="text"], select {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .error-message {
+    color: red; 
+    font-size: 0.8em; 
+    display: inline-block;
+    margin-left: 5px;
+   
+  }
+  .button-container {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 20px;
+    background-color: white;
+    gap:2%;    
+  }
+ 
+  .button-container button {
+    width: 100px;
+   
+    color: black;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333;
+  }
+  
+  .button-container button.cancel {
+    background-color:white;
+    
+  }
